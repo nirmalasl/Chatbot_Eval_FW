@@ -1,0 +1,220 @@
+case_id,question,expected,answer,http_status,skipped,skip_reason,AnswerRelevancyMetric,Correctness,AnswerRelevancyMetric_reason,Correctness_reason
+E-01,meeting room in Colombo,Should mention meeting rooms available in Colombo and offer relevant results.,"Here are some great meeting room options in Colombo:
+
+1. **Meeting Space A (T)**
+   - **Address:** Janadhipathi Mawatha
+   - **Pricing:** LKR 18 / hour
+   - **Capacity:** 5 people
+   - **Amenities:** Whiteboard, Smart TV, Video Conferencing, Projector   
+   ![Meeting Space A (T)](ms-singapore/b77m2oslmawx6t1wzpgl)
+
+2. **Meeting Room A**
+   - **Address:** Janadhipathi Mawatha
+   - **Pricing:** LKR 20 / day
+   - **Capacity:** 6 people
+   - **Amenities:** Whiteboard, Smart TV   
+   ![Meeting Room A](ms-singapore/wbyekr06dcka2gl6uqsk)
+
+3. **Meeting Room at CyberCube**
+   - **Address:** 61 Jandhipathi Mawatha
+   - **Pricing:** LKR 999 / hour
+   - **Capacity:** 6 people
+   - **Amenities:** Whiteboard, Smart TV, Water, WiFi, Air Conditioning, Tea    
+   ![Meeting Room at CyberCube](ms-singapore/mspixvgsxvwmv6krrlsg)
+
+4. **3 to 6 Seater Meeting Room at Academics**
+   - **Address:** 318 Galle Road
+   - **Pricing:** LKR 1,500 / hour
+   - **Capacity:** 6 people
+   - **Amenities:** Water, Kitchen / Pantry, Air Conditioning    
+   ![3 to 6 Seater Meeting Room at Academics](ms-singapore/mo8ei48dlso5ykguxvjq)
+
+5. **Meeting Room at Collaborate Sri Lanka**
+   - **Address:** Vijaya Kumarathunga Mawatha
+   - **Pricing:** LKR 1,600 / hour or LKR 6000 / day
+   - **Capacity:** 6 people
+   - **Amenities:** WiFi, Air Conditioning, Whiteboard    
+   ![Meeting Room at Collaborate Sri Lanka](ms-singapore/h4g0nuf6fk5ncngnxdus)
+
+If you want more details or to narrow down options by date or budget, just let me know!",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-02,I need a space,Should ask a clarifying question about the type of space needed.,"Could you tell me what type of space you're looking for? Some options are a meeting space, individual workspace, or a photo shoot area.",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-03,What types of spaces do you have?,"Should list space types: meeting room, private office, photo studio, training room, video studio, individual desk, team office, virtual office, or interview room.","We offer a variety of spaces for different needs. Here are the types you can choose from:
+
+- **Work:** Individual Workspace, Private Office, Virtual Office
+- **Meet:** Meeting Space, Interview Room, Team Building, Training
+- **Shoot:** Photo Shoot, Video Shoot
+
+If you have a specific type in mind, let me know, and I can help you find some options!",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-04,Colombo,Should ask what type of space the user is looking for.,"What type of space are you looking for in Colombo? You could choose from options like a meeting space, private office, or a photo shoot studio.",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-05,meeting room under 5000,Should acknowledge the budget filter and return meeting rooms within 5000 LKR.,"Here are some meeting room options under LKR 5000 across Sri Lanka:
+
+1. Meeting Space A (T)
+   - Location: Janadhipathi Mawatha, Colombo
+   - Price: LKR 18 / hour
+   - Capacity: 5
+   - Amenities: Whiteboard, Smart TV, Video Conferencing, Projector
+   - Availability: 06:00 AM - 11:00 PM
+   - [Book Here](https://millionspaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf5569b&spaceId=685a4d7000d1082bd8188118&unit=hour&urlStartDate=09/06/2026&urlEndDate=09/06/2026)
+
+2. Meeting Room A
+   - Location: Janadhipathi Mawatha, Colombo
+   - Price: LKR 20 / day
+   - Capacity: 6
+   - Amenities: Whiteboard, Smart TV
+   - [Book Here](https://millionspaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf5569b&spaceId=68870e2f2edcc455a359fc54&unit=day&urlStartDate=09/06/2026&urlEndDate=09/06/2026)
+
+3. Meeting Room at CyberCube
+   - Location: 61 Jandhipathi Mawatha, Colombo 1
+   - Price: LKR 999 / hour
+   - Capacity: 6
+   - Amenities: Whiteboard, Smart TV, Water, WiFi, Air Conditioning, Tea
+   - Availability: 09:00 AM - 04:00 PM
+   - [Book Here](https://millionspaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf5569b&spaceId=686cb31f11773f0765fce737&unit=hour&urlStartDate=09/06/2026&urlEndDate=09/06/2026)
+
+4. Meeting Room at 95-Ninety Five
+   - Location: 95 High Level Plaza, Delkanda, Nugegoda
+   - Price: LKR 1,250 / hour
+   - Capacity: 10
+   - Amenities: Smart TV, WiFi, Air Conditioning
+   - Availability: 08:30 AM - 06:30 PM
+   - [Book Here](https://millionspaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf5569b&spaceId=66f4ed2362af153fb4275832&unit=hour&urlStartDate=09/06/2026&urlEndDate=09/06/2026)
+
+5. 3 to 6 Seater Meeting Room at Academics
+   - Location: 318 Galle Road, Colombo 4
+   - Price: LKR 1,500 / hour
+   - Capacity: 6
+   - Amenities: Water, Kitchen / Pantry, Air Conditioning
+   - Availability: 08:00 AM - 08:00 PM
+   - [Book Here](https://millionspaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf5569b&spaceId=6908a8cc8491885de669019a&unit=hour&urlStartDate=09/06/2026&urlEndDate=09/06/2026)
+
+6. Meeting Room at XYZ Spaces
+   - Location: Kandy Road, Yakkala
+   - Price: LKR 1,500 / hour
+   - Capacity: 8
+   - Amenities: Water, WiFi
+   - Availability: 07:00 AM - 10:00 PM
+   - [Book Here](https://millionspaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf5569b&spaceId=69c0b7f3a7b37f8615ee8b0a&unit=hour&urlStartDate=09/06/2026&urlEndDate=09/06/2026)
+
+If you have a specific date in mind, I can check what's actually available for that day!",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-06,training room for 20 people on 26-06-2026,"Should acknowledge the 20-person capacity and the specific date, and return results.","Here are some training rooms suitable for 20 people on June 26, 2026:
+
+1. **5th Floor Classroom 9 at CIPM**  
+   Location: IPM, Vijaya Kumaratunge Mawatha, Colombo  
+   Price: LKR 2,000 / hour  
+   Amenities: WiFi, Air Conditioning, Whiteboard  
+   Availability: 09:00 AM - 05:00 PM  
+   [Book Now](https://MillionSpaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf556a2&spaceId=5fab7655ede28452d2dcbd40&unit=hour&urlStartDate=26/06/2026&urlEndDate=26/06/2026)
+
+2. **Classroom 1 at ICBS**  
+   Location: Imperial College of Business Studies, A2, Colombo  
+   Price: LKR 2,500 / hour  
+   Amenities: Air Conditioning  
+   Availability: 09:00 AM - 05:00 PM  
+   [Book Now](https://MillionSpaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf556a2&spaceId=5fae1eaa9b1f01347a8d1eda&unit=hour&urlStartDate=26/06/2026&urlEndDate=26/06/2026)
+
+3. **35 Seater Training Room at APEX**  
+   Location: Pagoda Road, Nugegoda  
+   Price: LKR 2,500 / hour  
+   Amenities: Whiteboard, Projector, Air Conditioning  
+   Availability: 07:00 AM - 11:00 PM  
+   [Book Now](https://MillionSpaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf556a2&spaceId=6911d42aea8c894d623db2ef&unit=hour&urlStartDate=26/06/2026&urlEndDate=26/06/2026)
+
+4. **3rd Floor Lecture Hall 01 at APEX**  
+   Location: Pagoda Road, Nugegoda  
+   Price: LKR 2,750 / hour  
+   Amenities: Whiteboard, Projector, Air Conditioning  
+   Availability: 07:00 AM - 10:00 PM  
+   [Book Now](https://MillionSpaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf556a2&spaceId=691a1cefea8c894d623db2f3&unit=hour&urlStartDate=26/06/2026&urlEndDate=26/06/2026)
+
+5. **70 Seater Training Room at APEX**  
+   Location: Pagoda Road, Nugegoda  
+   Price: LKR 3,000 / hour  
+   Amenities: Whiteboard, Projector, Air Conditioning  
+   Availability: 07:00 AM - 11:00 PM  
+   [Book Now](https://MillionSpaces.com/Sri-Lanka/space/bookings?eventTypeId=5e8e0fe22d2c6104bdf556a2&spaceId=6911adbbea8c894d623db2ec&unit=hour&urlStartDate=26/06/2026&urlEndDate=26/06/2026)
+
+These options should give you a good start! If you're looking for something specific or want to adjust your search, just let me know.",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-07,how much does coworking cost?,Should provide pricing information or a price range for coworking spaces.,"Coworking spaces in Sri Lanka have a range of pricing options. Here are a few examples:
+
+1. **4 Hour Coworking Package at Hacker** (Sri Jayawardenepura Kotte) - LKR 162 per hour
+2. **Coworking - 4 Hour Package at CoSpaces** (Colombo) - LKR 250 per hour
+3. **Hot Desk at TechDeck Co-Working Space** (Yakkala) - LKR 1,000 per day
+4. **Day Pass Coworking at Hacker House** (Sri Jayawardenepura Kotte) - LKR 1,200 per day
+5. **Coffee Desk at CoSpaces** (Colombo 4) - LKR 1,250 per day
+
+If you're interested in any of these spaces or looking for more options, let me know! I can help you narrow it down by date or budget if you have something in mind.",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-08,actually private office,Should switch context to private office search and return relevant results.,"Here are some private offices in Colombo that you might find suitable. 
+
+If you have any preferences regarding budget or need a specific feature, feel free to let me know!",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-09,under 8000,Should apply the budget filter to the ongoing search and return results within the price limit.,"I found a photo shoot studio in Kandy that fits your budget:
+
+**Photoshoot at Thisew**
+- **Address:** 259, Nirosa Estate, Galaha Road, Nillambe
+- **Price:** LKR 5,000 / block
+- **Capacity:** Suitable for up to 8 people
+
+Would you like to proceed with booking this space or need more information?",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-10,I need to speak to a real person,Should offer to connect the user to a human agent and provide contact details or a handoff form.,"I'll connect you with a human agent. Please fill out the contact form. If you prefer, you can also call them at 0117 811 811 for immediate assistance.",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-11,What is the weather in Colombo today?,Should politely redirect the user back to space search and not answer the off-topic weather question.,I'm here to help with space bookings. Looking for something?,200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-12,Hi,Should greet the user and offer to help find a space.,"Hello! I'm here to help you find and book workspaces, meeting spaces, or photo/video studios in Sri Lanka. What type of space are you looking for today?",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-13,video shoot in Jaffna under 500,Should respond empathetically when no results match and suggest alternatives or broaden the search.,"It looks like there are no video shoot spaces available in Jaffna under 500 right now. If you're open to exploring other areas, adjusting your budget, or changing the date, let me know, and I can search again for you!",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-14,dedicated desk,Should offer an alternative space type or clarify that dedicated desks are not available.,"We don't have dedicated desks available, but I can help you find a similar space. Would you like to consider an Individual Workspace or maybe a Private Office?",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
+E-15,private office,Should return private office listings or ask for a preferred city.,"Here are some options for private offices across Sri Lanka:
+
+1. **2-Seater Private Office at 2SF Labs**
+   - Location: Jaffna
+   - Price: LKR 6,700 / day
+   - Capacity: 2
+   - ![2-Seater Private Office at 2SF Labs](https://media.millionspaces.com/ms-singapore/qofr4kdqzcpryrypfl0q)
+
+2. **5 Seater Private Office at CoSpaces**
+   - Location: Colombo 4
+   - Price: LKR 14,000 / day
+   - Capacity: 5
+   - ![5 Seater Private Office at CoSpaces](https://media.millionspaces.com/ms-singapore/jvp1ovt0ntbs2et7hymx)
+
+3. **6 Seater - Paradise Luxe**
+   - Location: Sri Jayawardenepura Kotte
+   - Price: LKR 15,500 / month
+   - Capacity: 6
+   - ![6 Seater - Paradise Luxe](https://media.millionspaces.com/ms-singapore/bcsysznjers8073rhezh)
+
+4. **2 Seater - Paradise Properties**
+   - Location: Sri Jayawardenepura Kotte
+   - Price: LKR 18,500 / month
+   - Capacity: 2
+   - ![2 Seater - Paradise Properties](https://media.millionspaces.com/ms-singapore/b87ptvrrtspa3ofuhib3)
+
+5. **2 Seater at Vinsey**
+   - Location: Colombo 1
+   - Price: LKR 70,000 / month
+   - Capacity: 2
+   - Amenities: Water, WiFi, Air Conditioning
+   - ![2 Seater at Vinsey](https://media.millionspaces.com/ms-singapore/rkkay8odau26d3wnjx0h)
+
+6. **4 Seater Private Office - Space@44**
+   - Location: Pannipitiya
+   - Price: LKR 70,000 / month
+   - Capacity: 4
+   - ![4 Seater Private Office - Space@44](https://media.millionspaces.com/ms-singapore/hmelxuf5btsdrxm4uf1q)
+
+7. **5 Seater Private Office at MEEET**
+   - Location: Thalawathugoda
+   - Price: LKR 75,000 / month
+   - Capacity: 5
+   - ![5 Seater Private Office at MEEET](https://media.millionspaces.com/ms-singapore/rswswjxup9ldlzlvfni3)
+
+8. **4 Seater Private Office at Coworking Cube**
+   - Location: Kottawa
+   - Price: LKR 80,000 / month
+   - Capacity: 4
+   - ![4 Seater Private Office at Coworking Cube](https://media.millionspaces.com/ms-singapore/farahlxedcn373kyrlut)
+
+9. **3 Seater at Vinsey**
+   - Location: Colombo 1
+   - Price: LKR 90,000 / month
+   - Capacity: 3
+   - Amenities: Water, WiFi, Air Conditioning
+   - ![3 Seater at Vinsey](https://media.millionspaces.com/ms-singapore/udgwamu7qiie9tppycfh)
+
+If you have a specific city in mind or a budget, just let me know, and I can refine the options further!",200,False,,0.0,0.0,"error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}","error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ijklm*******************************mnop. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"
