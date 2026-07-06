@@ -1,6 +1,6 @@
 # DeepEval — Chatbot Evaluation Framework
 
-A comprehensive evaluation framework for testing **Spacey**, the AI-powered workspace search and booking chatbot on MillionSpaces (Sri Lanka). This framework uses **DeepEval** metrics to systematically evaluate chatbot response quality across multiple dimensions.
+A comprehensive evaluation framework for testing **Spacey**, the AI-powered workspace search and booking chatbot. This framework uses **DeepEval** metrics to systematically evaluate chatbot response quality across multiple dimensions.
 
 ---
 
